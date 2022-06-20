@@ -22,7 +22,20 @@ a, a:hover {
 /* header */
 
 /* banner */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
 
+.ban img {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
 /* about */
+img {
+    width: 100%;
+    height: 60%;
+}
 
 /* footer / contact */
