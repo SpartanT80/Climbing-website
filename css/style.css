@@ -1,5 +1,23 @@
 /* font-family: 'Raleway', sans-serif; */
 
+/* reset */
+body, html {
+    margin: 0%;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
 
 /* header */
 
