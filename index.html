@@ -20,23 +20,46 @@
 <body>
     <!-- header -->
     <header class="container-fluid header">
-        <div class="container">
-            <a href="#" class="logo">Escal'tout</a>
-            <nav class="menu">
-                <a href="#">Acceuil</a>
-                <a href="#about">A propos</a>
-                <a href="#event">Evenements</a>
-                <a href="#pictures">Photos</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="navbar-brand ms-5" href="#">Escal'tout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Evenements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <li>
+                    <a href="#" class="language me-2" rel="fr-FR"><img class="flag" src="img/frenchFlag.png"
+                            alt="French" /></a>
+                </li>
+                <li>
+                    <a href="#" class="language me-5" rel="en-EN"><img class="flag" src="img/englishFlag.png"
+                            alt="English" /></a>
+                </li>
+            </div>
+        </nav>
     </header>
     <!-- end header -->
 
     <!-- banner -->
     <section class="container-fluid banner">
         <div class="ban">
-            <img src="" alt="banner website">
+            <img src="img/ban.jpg" alt="banner website">
         </div>
         <div class="inner-banner">
             <h1>Bienvenue chez Escal'Tout !</h1>
@@ -58,7 +81,7 @@
                         labore eveniet? Earum officia modi dicta sunt id magnam, dolor animi, cumque architecto,
                         esse consequatur molestiae cum in?
                     </p>
-                    <img src="" alt="wall">
+                    <img src="img/wall.jpg" alt="wall">
                 </article>
                 <article class="col-md-4 col-sm-12">
                     <h2>Le bloc</h2>
@@ -67,7 +90,7 @@
                         labore eveniet? Earum officia modi dicta sunt id magnam, dolor animi, cumque architecto,
                         esse consequatur molestiae cum in?
                     </p>
-                    <img src="" alt="boulder">
+                    <img src="img/boulderWall.png" alt="boulderWall">
                 </article>
                 <article class="col-md-4 col-sm-12">
                     <h2>L'equipement</h2>
@@ -76,7 +99,7 @@
                         labore eveniet? Earum officia modi dicta sunt id magnam, dolor animi, cumque architecto,
                         esse consequatur molestiae cum in?
                     </p>
-                    <img src="" alt="equipment">
+                    <img src="img/climbingGears.jpg" alt="climbingGears">
                 </article>
             </div>
     </section>
@@ -91,13 +114,11 @@
                 <form>
                     <div class="mb-3">
                         <label for="name" class="form-label">Nom</label>
-                        <input type="name" class="form-control" id="name"
-                            placeholder="Votre nom ici">
+                        <input type="name" class="form-control" id="name" placeholder="Votre nom ici">
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Adresse mail</label>
-                        <input type="email" class="form-control" id="email"
-                            placeholder="email@example.com">
+                        <input type="email" class="form-control" id="email" placeholder="email@exemple.com">
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Votre message</label>
@@ -113,8 +134,14 @@
     <!-- end footer / contact -->
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
 </body>
 
